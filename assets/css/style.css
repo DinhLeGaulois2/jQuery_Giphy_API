@@ -1,0 +1,64 @@
+body{
+    background-color:#445d65;
+    font-size:16px;
+}
+
+.heading, .search, .wordsSearch, .result, .footer{            
+    padding:5px;
+    margin:5px 0px 0px 0px;
+}
+.heading{
+    padding:2px;
+    color: red;
+    font-weight:bold;
+    font-size:36px;
+    text-align: center;
+}
+.search{
+    background-color:black;
+    color:blue;
+    text-align:center;
+}
+.wordsSearch{
+    color:black;
+    overflow: auto;
+}
+.result{
+    background-color:white;  
+    text-align:center;
+}
+.portrait{
+    padding: 5px;
+    margin:15px 0px;
+}
+.portrait:hover{
+    cursor:pointer;
+}
+.searchExpr{
+    float:left;
+    width:auto;
+    background-color:black;
+    color:cyan;
+    border:1px solid gray;
+    padding:2px 10px;
+    margin:2px;
+    border-radius:10px;
+    box-shadow:2px 2px 2px gray;
+}
+.searchExpr:hover{
+    color:yellow;
+    cursor:pointer;
+}
+.row{
+    clear:left;
+    float:left;
+    width: 95%;
+}
+.footer{
+    position:fixed;
+    width:100%;
+    bottom:0px;
+    background-color:black;
+    color:cyan;
+    text-align:center;
+}
